@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "paths": {
+      "@amethyxgg/wow-forever-data/Character": ["./types/Character.d.ts"],
+      "@amethyxgg/wow-forever-data/classes": ["./data/classes/index.ts"],
+      "@amethyxgg/wow-forever-data/classes/druid": ["./data/classes/druid.ts"],
+      "@amethyxgg/wow-forever-data/classes/hunter": ["./data/classes/hunter.ts"],
+      "@amethyxgg/wow-forever-data/classes/mage": ["./data/classes/mage.ts"],
+      "@amethyxgg/wow-forever-data/classes/paladin": ["./data/classes/paladin.ts"],
+      "@amethyxgg/wow-forever-data/classes/priest": ["./data/classes/priest.ts"],
+      "@amethyxgg/wow-forever-data/classes/rogue": ["./data/classes/rogue.ts"],
+      "@amethyxgg/wow-forever-data/classes/shaman": ["./data/classes/shaman.ts"],
+      "@amethyxgg/wow-forever-data/classes/warlock": ["./data/classes/warlock.ts"],
+      "@amethyxgg/wow-forever-data/classes/warrior": ["./data/classes/warrior.ts"],
+      "@amethyxgg/wow-forever-data/CraftedItem": ["./types/CraftedItem.d.ts"],
+      "@amethyxgg/wow-forever-data/Material": ["./types/Material.d.ts"],
+      "@amethyxgg/wow-forever-data/Race": ["./enum/Race.ts"],
+      "@amethyxgg/wow-forever-data/Rarity": ["./enum/Rarity.ts"],
+      "@amethyxgg/wow-forever-data/Realm": ["./enum/Realm.ts"],
+      "@amethyxgg/wow-forever-data/Role": ["./types/Role.d.ts"],
+      "@amethyxgg/wow-forever-data/Roles": ["./data/Roles.ts"],
+      "@amethyxgg/wow-forever-data/WoWClass": ["./types/WoWClass.d.ts"]
+    }
+  }
+}
