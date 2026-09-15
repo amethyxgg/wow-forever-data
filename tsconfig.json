@@ -20,7 +20,6 @@
       "@amethyxgg/wow-forever-data/Material": ["./types/Material.d.ts"],
       "@amethyxgg/wow-forever-data/Race": ["./enum/Race.ts"],
       "@amethyxgg/wow-forever-data/Rarity": ["./enum/Rarity.ts"],
-      "@amethyxgg/wow-forever-data/Realm": ["./enum/Realm.ts"],
       "@amethyxgg/wow-forever-data/Role": ["./types/Role.d.ts"],
       "@amethyxgg/wow-forever-data/Roles": ["./data/Roles.ts"],
       "@amethyxgg/wow-forever-data/WoWClass": ["./types/WoWClass.d.ts"]
