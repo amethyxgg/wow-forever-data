@@ -17,7 +17,7 @@ export const CopperBar: CraftedItem = {
             quantity: 1
         }
     ],
-    craftQuantity: 2
+    craftQuantity: 1
 };
 
 export default CopperBar;
