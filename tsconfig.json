@@ -5,8 +5,8 @@
     "noEmit": true,
     "allowImportingTsExtensions": true,
     "paths": {
-      "@anethyxgg/wow-forever-data/reagents": ["./data/reagents/index.ts"],
-      "@anethyxgg/wow-forever-data/reagents/*": ["./data/reagents/*"],
+      "@amethyxgg/wow-forever-data/reagents": ["./data/reagents/index.ts"],
+      "@amethyxgg/wow-forever-data/reagents/*": ["./data/reagents/*"],
       "@amethyxgg/wow-forever-data/Character": ["./types/Character.d.ts"],
       "@amethyxgg/wow-forever-data/raids": ["./data/raids/index.ts"],
       "@amethyxgg/wow-forever-data/classes": ["./data/classes/index.ts"],
