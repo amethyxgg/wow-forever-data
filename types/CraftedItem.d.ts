@@ -11,5 +11,6 @@ export type CraftedItem = {
     rarity?: Rarity
     type: string
     url?: string
+    craftQuantity?: number
     materials: Reagent[]
 }

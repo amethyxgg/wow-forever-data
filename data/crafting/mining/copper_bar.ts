@@ -14,9 +14,10 @@ export const CopperBar: CraftedItem = {
     materials: [
         {
             ...CopperOre,
-            quantity: 2
+            quantity: 1
         }
-    ]
+    ],
+    craftQuantity: 2
 };
 
 export default CopperBar;
