@@ -4,7 +4,8 @@ import type { Material } from "@amethyxgg/wow-forever-data/Material"
 export type Reagent = Material & { quantity?: number }
 
 export type CraftedItem = {
-    id?: number
+    spellId?: number
+    itemId?: number
     name: string
     icon?: string
     rarity?: Rarity
