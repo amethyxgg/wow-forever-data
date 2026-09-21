@@ -4,4 +4,5 @@ export type Material = {
     name: string
     url: string
     rarity: Rarity
+    itemId?: number
 }

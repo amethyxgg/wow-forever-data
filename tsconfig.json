@@ -5,7 +5,10 @@
     "noEmit": true,
     "allowImportingTsExtensions": true,
     "paths": {
+      "@anethyxgg/wow-forever-data/reagents": ["./data/reagents/index.ts"],
+      "@anethyxgg/wow-forever-data/reagents/*": ["./data/reagents/*"],
       "@amethyxgg/wow-forever-data/Character": ["./types/Character.d.ts"],
+      "@amethyxgg/wow-forever-data/raids": ["./data/raids/index.ts"],
       "@amethyxgg/wow-forever-data/classes": ["./data/classes/index.ts"],
       "@amethyxgg/wow-forever-data/classes/druid": ["./data/classes/druid.ts"],
       "@amethyxgg/wow-forever-data/classes/hunter": ["./data/classes/hunter.ts"],
@@ -20,6 +23,7 @@
       "@amethyxgg/wow-forever-data/Material": ["./types/Material.d.ts"],
       "@amethyxgg/wow-forever-data/Race": ["./enum/Race.ts"],
       "@amethyxgg/wow-forever-data/Rarity": ["./enum/Rarity.ts"],
+      "@amethyxgg/wow-forever-data/Raid": ["./types/Raid.d.ts"],
       "@amethyxgg/wow-forever-data/Role": ["./types/Role.d.ts"],
       "@amethyxgg/wow-forever-data/Roles": ["./data/Roles.ts"],
       "@amethyxgg/wow-forever-data/WoWClass": ["./types/WoWClass.d.ts"]
